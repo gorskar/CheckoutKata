@@ -1,0 +1,23 @@
+http://codekata.com/kata/kata09-back-to-the-checkout/
+
+  Item   Unit      Special
+         Price     Price
+  --------------------------
+    A     50       3 for 130
+    B     30       2 for 45
+    C     20
+    D     15
+
+
+co = CheckOut.new(pricing_rules)
+co.scan(item)
+co.scan(item)
+    :    :
+price = co.total
+
+1 - Write the test
+2 - Make it compile
+3 - watch it fail
+4 - do just enough to make all the tests pass
+5 - refactor and generalise
+  a - step through each Calisthenics rule and enforce compliance
